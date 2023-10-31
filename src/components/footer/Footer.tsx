@@ -10,7 +10,7 @@ export default function Footer() {
             <footer className="db-footer">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 col-12 mb-4">
+                        <div className="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
                             <img src={BrandFooter} alt="Duper Burgers" />
                             <p>Porem ipsum dolor sit amet consect adipiscing elit aliquam mauris.</p>
                             <div className="db-footer-social">
@@ -40,7 +40,7 @@ export default function Footer() {
                                 <li><a href="/">Formas de Pagamento</a></li>
                             </ul>
                         </div>
-                        <div className="col-lg-4 db-footer-contact">
+                        <div className="col-lg-4 col-sm-12 db-footer-contact">
                             <h4>Canais</h4>
                             <div className="db-footer-contact-channel">
                                 <div className="db-footer-contact-channel-icon">

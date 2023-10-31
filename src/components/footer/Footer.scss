@@ -31,10 +31,12 @@
     .db-footer-menu {
         h4 {
             color: $color-neutral-800;
+            font-size: 20px;
+            font-weight: 600;
         }
         ul {
             li {
-                padding: 10px 0px;
+                padding: 5px 0px;
                 a {
                     text-decoration: none;
                     font-size: 18px;
@@ -46,6 +48,8 @@
     .db-footer-contact {
         h4 {
             color: $color-neutral-800;
+            font-size: 20px;
+            font-weight: 600;
         }
         .db-footer-contact-channel {
             width: 100%;
@@ -79,4 +83,59 @@
             }
         }
     }
+    @media (min-width: 300px) and (max-width: 575.98px) {
+        img {
+            width: 175px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        .db-footer-social {
+            margin-bottom: 30px;
+        }
+        .db-footer-menu {
+            h4 {
+                font-size: 18px;
+                margin-bottom: 15px;
+            }
+            ul {
+                li {
+                    a {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .db-footer-contact {
+            h4 {
+                font-size: 18px;
+            }
+        }
+        .db-footer-contact-channel {
+            margin-top: 15px;
+            .db-footer-contact-channel-icon {
+                a {
+                    img {
+                        width: 60px !important;
+                    }
+                }
+            }
+            .db-footer-contact-channel-content {
+                h5 {
+                    font-size: 18px !important;
+                    margin-bottom: 5px;
+                }
+                p {
+                    font-size: 16px !important;
+                    margin: 0px;
+                    color: $color-primary;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    @media (min-width: 576px) and (max-width: 991.98px) {}
+    @media (min-width: 992px) and (max-width: 1199.98px) {}
+    @media (min-width: 1200px) and (max-width: 1600px) {}
 }
